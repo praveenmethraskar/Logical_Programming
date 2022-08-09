@@ -22,6 +22,10 @@ namespace Logical_programming
                         Perfect_Number perfect_Number = new Perfect_Number();
                         perfect_Number.PerfectNumber();
                         break;
+                    case 3:
+                        Prime_Number Prime_Number = new Prime_Number();
+                        Prime_Number.PrimeNumber();
+                        break;
                     default:
                         isrun = false;
                         Console.WriteLine("select correct option");
